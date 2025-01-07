@@ -53,6 +53,7 @@ export default {
         '27': '27px',
         '28': '28px',
         '28.8': '28.8px',
+        '38.4': '38.4px',
         '48': '48px'
       },
       borderRadius: {
