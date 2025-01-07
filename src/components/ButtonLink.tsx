@@ -15,8 +15,7 @@ const ButtonLink: React.FC<ButtonData> = ({
 }) => {
   return (
     <a
-      onClick={onClick}
-      
+      onClick={onClick}      
       className={`font-sans font-bold leading-27 text-18 self-stretch  items-center justify-center cursor-pointer
       ${bgcolor || "bg-blue-900"} 
       ${hoverColor ? `${hoverColor}` : ""} 
