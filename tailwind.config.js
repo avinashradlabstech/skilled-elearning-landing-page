@@ -28,7 +28,7 @@ export default {
         'blue-600': '#666CA3',
         'pink-600': '#F74780',
         'pink-300': '#FFA7C3',
-        'grey': '#83869A',        
+        'grey': '#83869A',
       },
 
       spacing: {
@@ -49,8 +49,11 @@ export default {
         '1800': '144px',
       },
       lineHeight: {
-        '120': '48px',
-        '150': '27px',
+        '24': '24px',
+        '27': '27px',
+        '28': '28px',
+        '28.8': '28.8px',
+        '48': '48px'
       },
       borderRadius: {
         '28': '1.75rem',

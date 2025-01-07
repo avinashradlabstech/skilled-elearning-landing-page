@@ -1,34 +1,14 @@
 import React from "react";
-import Button from "./Button";
-//import Info from "../data/info";
-interface CardData {
-  icon: string;
-  title: string;
-  description: string;
-  buttonTxt: string;
+
+interface TitleCardData {
+  heading: string;
 }
 
-const TitleCard: React.FC<CardData> = ({
-  icon,
-  title,
-  description,
-  buttonTxt,
-}) => {
+const TitleCard: React.FC<TitleCardData> = ({ heading }) => {
   return (
     <>
-      <div className="px-400 pt-800 pb-500">
-        <div>
-          <img src={icon}></img>
-        </div>
-        <div className="gap-300">
-          <div className="text-sans text-20 font-extrabold leading-24">
-            {title}
-          </div>
-          <div>{description}</div>
-        </div>
-        <div>
-          <Button text={buttonTxt} />
-        </div>
+      <div className="flex flex-col items-start  gap-100 self-stretch px-400 py-400 md:pt-800 md:pb-500 rounded-15 bg-gradient-orange">
+       <div className="text-sans font-extrabold leading-28 self-stretch text-white text-24 lg:text-32"> {heading}</div>
       </div>
     </>
   );
