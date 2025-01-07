@@ -1,6 +1,6 @@
 import React from "react";
-import Button from "Button";
-import info from ".data/info";
+import Button from "./Button";
+import info from "../data/info";
 const Hero: React.FC = () => {
   return (
     <>
@@ -22,16 +22,16 @@ const Hero: React.FC = () => {
           </div>
         </div>
         <div className="flex md:w-1/2">
-          {/* <img src="image-hero-mobile.webp" alt=""></img> */}
+          {/* <img src="/image-hero-mobile.webp" alt=""></img> */}
           <img
             className=""
-            src="image-hero-tablet@2x.webp"
+            src="/image-hero-tablet@2x.webp"
             srcSet="
-              image-hero-mobile.png 3600w,
-              image-hero-tablet.png 744w,
-              image-hero-desktop.png 1024w,
-              image-hero-desktop@2x.png 1280w,
-              image-hero-desktop@2x.png 1920w
+              /image-hero-mobile.png 3600w,
+              /image-hero-tablet.png 744w,
+              /image-hero-desktop.png 1024w,
+              /image-hero-desktop@2x.png 1280w,
+              /image-hero-desktop@2x.png 1920w
               "
             sizes="
               (max-width: 360px) 200px,
