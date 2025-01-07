@@ -15,7 +15,7 @@ const Card: React.FC<CardData> = ({ icon, title, description, buttonTxt }) => {
         <div className="flex pl-8 items-start content-center gap-8 relative">
           <img src={icon} className="min-w-[56px] min-h-[56px]" alt='image'></img>
         </div>
-        <div className="px-400 pt-800 pb-500 gap-100 border rounded-15 mt-[-28px]">
+        <div className="px-400 pt-800 pb-500 gap-100 border rounded-15 mt-[-1.75rem]">
           <div className="flex flex-col items-start gap-300">
             <div className="text-sans text-20 text-blue-900 font-extrabold leading-24">
               {title}
