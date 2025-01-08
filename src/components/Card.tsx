@@ -25,7 +25,7 @@ const Card: React.FC<CardData> = ({
           <div className="flex pl-8 items-start content-center gap-8 relative">
             <img
               src={icon}
-              className="min-w-[56px] min-h-[56px]"
+              className="min-w-56 min-h-56"
               alt="image"
             ></img>
           </div>

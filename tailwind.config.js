@@ -67,6 +67,12 @@ export default {
       zIndex: {
         '-1': '-1',
       },
+      minWidth: {
+        '56': '56px', 
+      },
+      minHeight: {
+        '56': '56px', 
+      },
       backgroundImage: {
         'gradient-white': 'linear-gradient(180deg, #FFF 0%, #F0F1FF 100%)',
         'gradient-pink': 'linear-gradient(180deg, #4851FF 0%, #F02AA6 100%)',
