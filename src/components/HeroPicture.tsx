@@ -25,7 +25,7 @@ const HeroPicture: React.FC = () => {
   }
 
   return (
-    <picture className="hero-picture md:absolute md:-z-1 md:max-w-[625px] md:top-[-7rem] md:right-[-12.25rem] lg:top-[-14.375rem] lg:max-w-[1021px] lg:right-[-17.5625rem]">
+    <picture className="hero-picture md:absolute md:-z-1 md:max-w-[39.0625rem] md:top-[-7rem] md:right-[-12.25rem] lg:top-[-14.375rem] lg:max-w-[63.8125rem] lg:right-[-17.5625rem]">
       <source srcSet={srcSet} type="image/webp" media={mediaQuery} />
       <source
         srcSet={srcSet.replace(".webp", ".png")}
