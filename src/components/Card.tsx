@@ -29,12 +29,12 @@ const Card: React.FC<CardData> = ({
               alt="image"
             ></img>
           </div>
-          <div className="px-400 pt-800 pb-500 gap-100 border rounded-15 mt-[-1.75rem]">
+          <div className="px-400 pt-800 pb-500 gap-100 border rounded-15 mt-[-1.75rem] w-full">
             <div className="flex flex-col items-start gap-300">
               <div className="text-sans text-20 text-blue-900 font-extrabold leading-24">
                 {title}
               </div>
-              <div className="text-grey font-sans text-16 font-bold leading-24 self-stretch">
+              <div className="text-grey font-sans text-16 font-bold md:font-medium leading-24 md:leading-27 self-stretch md:w-[16.5rem] lg:w-[18rem] md:min-h-[7.375rem] lg:text-18 lg:min-h-[7.0625rem]">
                 {description}
               </div>
               <Button
