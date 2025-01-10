@@ -17,8 +17,7 @@ const Card: React.FC<CardData> = ({
   buttonTxt,
   url,
   isLink,
-}) => {
-  if (icon) {
+}) => {  
     return (
       <>
         <div className="flex flex-col items-start">
@@ -49,15 +48,6 @@ const Card: React.FC<CardData> = ({
           </div>
         </div>
       </>
-    );
-  }
-
-  return (
-    <>
-      <div className="flex flex-col  items-start gap-100 self-stretch px-400 py-400 rounded-15 bg-gradient-orange">
-        
-      </div>
-    </>
-  );
+    );  
 };
 export default Card;

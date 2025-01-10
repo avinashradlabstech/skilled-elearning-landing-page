@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
-//import TitleCard from "../components/TitleCard";
 import Card from "../components/Card";
 import info from "../data/info";
 import Footer from "../components/Footer";
