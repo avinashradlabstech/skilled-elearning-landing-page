@@ -14,13 +14,13 @@ const HeroPicture: React.FC = () => {
   let srcSet: string, mediaQuery: string;
 
   if (windowWidth <= 768) {
-    srcSet = "/image-hero-mobile.webp, /image-hero-mobile@2x.webp 2x";
+    srcSet = "/img/hero/mobile/image-hero-mobile.webp, /img/hero/mobile/image-hero-mobile@2x.webp 2x";
     mediaQuery = "(max-width: 768px)";
   } else if (windowWidth <= 992) {
-    srcSet = "/image-hero-tablet.webp, /image-hero-tablet@2x.webp 2x";
+    srcSet = "/img/hero/tablet/image-hero-tablet.webp, /img/hero/tablet/image-hero-tablet@2x.webp 2x";
     mediaQuery = "(max-width: 992px)";
   } else {
-    srcSet = "/image-hero-desktop.webp, /image-hero-desktop@2x.webp 2x";
+    srcSet = "/img/hero/desktop/image-hero-desktop.webp, /img/hero/desktop/image-hero-desktop@2x.webp 2x";
     mediaQuery = "all";
   }
 

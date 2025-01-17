@@ -35,7 +35,7 @@ const Button: React.FC<ButtonData> = ({
     <a
       target="_blank"
       href={href}
-      className={`item-center justify-center gap-100 py-200 px-400 md:py-150 md:h-12 rounded-28 font-sans font-bold leading-27 text-18 cursor-pointer
+      className={`item-center justify-center gap-100 py-200 px-400 md:py-150 lg:py-[16px] lg:px-[32px] rounded-28 font-sans font-bold leading-27 text-18 cursor-pointer
       ${bgcolor || "bg-blue-900"} 
       ${hoverColor ? `${hoverColor}` : ""} 
       ${color || "text-white"} 

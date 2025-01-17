@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "./Button";
+import Anchor from "./Anchor";
 import info from "../data/info";
 import HeroPicture from "./HeroPicture";
 
@@ -18,7 +18,7 @@ const Hero: React.FC = () => {
               </div>
             </div>
             <div className="flex">
-              <Button
+              <Anchor
                 text="Get Started"
                 bgcolor="bg-gradient-orange"
                 hoverColor="hover:bg-gradient-orange-hover"
