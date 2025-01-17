@@ -68,10 +68,10 @@ export default {
         '-1': '-1',
       },
       minWidth: {
-        '56': '56px', 
+        '56': '56px',
       },
       minHeight: {
-        '56': '56px', 
+        '56': '56px',
       },
       backgroundImage: {
         'gradient-white': 'linear-gradient(180deg, #FFF 0%, #F0F1FF 100%)',
@@ -84,12 +84,24 @@ export default {
       },
       screens: {
         sm: '490px',
-        md: '744px',  
+        md: '744px',
         '2md': '1024px',
         lg: '1280px',
         xl: '1920px',
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      addUtilities({
+        ".text-preset-1": {
+          fontFamily: '"Plus Jakarta Sans", sans-serif',
+          fontSize: "56px",
+          fontStyle: "normal",
+          fontWeight: "800",
+          lineHeight: "120%", /* 67.2px */
+        },
+      }, ["responsive", "hover"]);
+    },
+  ],
 }
