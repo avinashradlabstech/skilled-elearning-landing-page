@@ -4,7 +4,6 @@ import Card from "./Card";
 
 interface CardData {
   icon: string;
-  iconType: string;
   iconTransform: string;
   title: string;
   description: string;
